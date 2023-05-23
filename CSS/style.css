@@ -1,0 +1,92 @@
+@font-face{
+    font-family: 'Panthera';
+    src: url(../Polyce/Panthera/PantheraRegular-MVZ9J.ttf); 
+ }
+
+ @font-face{
+    font-family: 'BEYNO';
+    src: url(../Polyce/beyno/BEYNO.ttf); 
+ }
+
+ @font-face{
+    font-family: 'Wakanda forever';
+    src: url(../Polyce/wakanda_forever/WakandaForever-Regular.ttf); 
+ }
+
+ @font-face{
+    font-family: 'Cantarell';
+    src: url(../Polyce/cantarell/Cantarell-Regular.ttf); 
+ }
+
+ :root{
+    --blanc: #FFFFFF;
+    --blanc-rose : #F2CEF2; 
+    --violet-claire: #4509b6;
+    --rose-claire: #bb67d3;
+    --bleu: #3D2DA6;
+    --bleu-foncé: #07338C;
+    --bleu-marine: #021740;
+ }
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /*------------------------------------------- Partie footer------------------------------------------------ */
+
+ footer {
+    border: 10px;
+    margin-top: auto;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background: linear-gradient(
+        80deg,var(--violet-claire),var(--rose-claire) )
+
+  }
+  
+/*---------------------------------------------- header------------------------------------------*/
+
+
+/*---------------------------------------------- titre ou les hauts de la page------------------------------------------*/
+.haut {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    display: inline;
+}
+body{
+   color: #FFFFFF;
+   text-justify: auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(../Assets/All-pages/arrière_plan.png);
+   background-repeat: no-repeat;
+}
+
+/* partie texte*/
+
+h1{
+    font-family: 'Panthera';
+    font-size: 60px;
+}
+h2, h3{
+    font-family: 'Beyno';
+    font-size: 32px;
+}
+
+p{
+    font-family: 'Cantarell';
+}
+
+section{
+    font-size: 20px;
+    padding: 10% 0 20% 0;
+}
+
+.numero1 {
+    background-image: url(../Assets/Accueil/Pantherhome1..png);
+}
