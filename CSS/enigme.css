@@ -28,52 +28,24 @@
     --bleu-marine: #021740;
  }
 
- *{
-   margin: 0;
-   margin-right: 0px;
-   margin-left: 3px;
-   padding: 2px;
-   border: 20%;
-   border-left: 10px;
-   font-weight: 300
-}
 
- /*------------------------------------------- Partie footer------------------------------------------------ */
-
- footer {
-   border: 10px;
-   margin-top: auto;
-   background-repeat: no-repeat;
-   background-size: 0px;
-   background: linear-gradient(
-       80deg,var(--violet-claire),var(--rose-claire) )
-
- }
-
-
- /*---------------------------------------------- header------------------------------------------*/
-
- header, main {
-   margin: 2%;
- }
  /*-------------------------------body------------------------*/
 body{
    color: white;
    background-image: url(../Assets/All-pages/arrière_plan.png);
    background-repeat: no-repeat;
+   margin: 0% auto;
+   padding: 100px;
    
 }
 
 /*---------------------------------------------- titre ou les hauts de la page------------------------------------------*/
 
-
-
 #base{
    display: inline;
    justify-content: space-between;
    display: flex;
-  margin-top: 5%;
-  border: 20px;
+   padding: 100px;
  }
  .Accueil a{
    justify-content: right;
@@ -82,22 +54,16 @@ body{
    color: #FFFFFF;
    padding: 20px;
    border: 900%;
+   }
    
 /* ---------------------------------------la grande page----------------------------------------*/
- }
- .gauche 
- img{
-   width: 60%;
-   height: 30%;
- }
- .gauche {
+
+ main .partie1{
    display: flex;
- }
- .left{
-   padding: 20px;
-   width: 30%;
-   height: 60%;
- }
+}
+.last_parag{
+   margin-left: 20px;
+}
 
 /* partie texte*/
 
@@ -112,31 +78,58 @@ h2, h3{
    font-family: 'Beyno';
    font-size: 32px;
 }
-.vocab-wakanda p , .alphabet .forme{
+.vocab-wakanda p , .alphabet .wakanda_transform{
    font-family:'Wakanda-forever';
 }
 p{
    font-family: 'Cantarell';
 }
 
-
-.last_parag{
-   right: 100%;
-   font-size: 15px;
-   border: 90px;
-   padding: 2%;
-   justify-content: right
-}
-.left{
-   justify-content: left;
-}
-.last_parag img{
-   padding: 20%;
-   margin: 20px;
-   top: 2%;
+.vocab-wakanda .normal{
+   font-family: 'Cantarell';
 }
 
-.gauche div{
-   right: 100%;
+/* ---------------------------------------------Design de la section--------------------------------------------*/
+main .section1 .image1{
+    background-image: url('../Assets/Enigme/Pantherenigme1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+main .section1 .text1{
+    width: 600px;
+    text-align: justify;
+    float: right;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
 }
 
+main .section1 .text1 h2{
+    font-size: 30px;
+   
+}
+main .section1 .text1 p{
+    width: 350px;
+    color: var(--whiteColor);
+    font-family: 'cantarell';
+    font-size: 12px;
+    margin-top: 100px;
+    margin-left: 150px;
+    float: right;
+}
+main .section1 .text1 img{
+    position: relative;
+    width: 600px;
+}
+
+ /*------------------------------------------- Partie footer------------------------------------------------ */
+
+ footer {
+   background: linear-gradient(
+       80deg,var(--violet-claire),var(--rose-claire) )
+
+ }
